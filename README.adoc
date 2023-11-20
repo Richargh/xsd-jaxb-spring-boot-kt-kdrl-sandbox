@@ -1,0 +1,20 @@
+= Xsd to Java Generation
+
+== Features
+
+* Xsd-Generation via link:https://github.com/bjornvester/xjc-gradle-plugin[Xjc]
+
+== Preconditions
+
+* Install the java version from link:.sdkmanrc[] via link:https://sdkman.io/[SdkMan] by calling `sdk env`
+
+== Usage
+
+* Run server via `./gradlew bootRun` and open link:http://localhost:8080[localhost:8080].
+* Run tests via `./gradlew test`
+
+== Acknowledgements
+
+Helpful links to get this working were:
+
+* link:https://learn.microsoft.com/en-us/visualstudio/xml-tools/sample-xsd-file-simple-schema?view=vs-2022[Purchase Order Schema]

@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:tns="http://tempuri.org/PurchaseOrderSchema.xsd"
+            targetNamespace="http://tempuri.org/PurchaseOrderSchema.xsd"
+            elementFormDefault="qualified">
+    <xs:element name="Customer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Dob" type="xs:date" />
+                <xs:element name="Address">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Line1" type="xs:string" />
+                            <xs:element name="Line2" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
